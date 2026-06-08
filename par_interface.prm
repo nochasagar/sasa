@@ -3,146 +3,146 @@
 *
 
 !CLAY MINERA
-ATOMS
-MASS -1 IAY1   26.981539  ! Al  6 coordinate ; Aluminum atom(+1.45) or magnesium defect(+1.1) in octahedral aluminate sheet
-MASS -1 IAY2   26.981539  ! Al  6 coordinate ; Aluminum atom +1.45) or magnesium defect(+1.1) in octahedral aluminate sheet
-MASS -1 IMY1   24.305000  ! Mg  6 coordinate ; Magnesium defect(+1.1) in octahedral aluminate sheet
-MASS -1 IHOK    1.008000  ! H   1 coordinate ; Hydrogen atom in AlOH surface group in kaolinite
-MASS -1 IHOY    1.008000  ! H   1 coordinate ; Hydrogen atom in (Al,Mg,Si)OH and OH- group in clay, silica
-MASS -1 IOY1   15.999400  ! O   2 coordinate ; Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)
-MASS -1 IOY2   15.999400  ! O   2 coordinate ; Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)
-MASS -1 IOY3   15.999400  ! O   2 coordinate ; Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)
-MASS -1 IOY4   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)
-MASS -1 IOY5   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)
-MASS -1 IOY6   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.683, -0.792 if next to Mg defect)
-MASS -1 IOY7   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)
-MASS -1 IOY8   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)
-MASS -1 IOY9   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.683, -0.792 if next to Mg defect)
-MASS -1 ISY1   28.086000  ! Si  4 coordinate ; Silicon atom in tetrahedral silicate sheet (+1.1)
-MASS -1 ISY2   28.086000  ! Si  4 coordinate ; Silicon atom in tetrahedral silicate sheet (+1.1)
-MASS -1 IAYT1  26.981539  ! Al               ; Aluminum defect of ISY1 (+0.8)
-MASS -1 IAYT2  26.981539  ! Al               ; Aluminum defect of ISY2 (+0.8)
-MASS -1 IK_CM  39.102000  ! K+               ; Potassium ion in mica, montmorillonite, and other clays (+1.0)
+!ATOMS
+!MASS -1 IAY1   26.981539  ! Al  6 coordinate ; Aluminum atom(+1.45) or magnesium defect(+1.1) in octahedral aluminate sheet
+!MASS -1 IAY2   26.981539  ! Al  6 coordinate ; Aluminum atom +1.45) or magnesium defect(+1.1) in octahedral aluminate sheet
+!MASS -1 IMY1   24.305000  ! Mg  6 coordinate ; Magnesium defect(+1.1) in octahedral aluminate sheet
+!MASS -1 IHOK    1.008000  ! H   1 coordinate ; Hydrogen atom in AlOH surface group in kaolinite
+!MASS -1 IHOY    1.008000  ! H   1 coordinate ; Hydrogen atom in (Al,Mg,Si)OH and OH- group in clay, silica
+!MASS -1 IOY1   15.999400  ! O   2 coordinate ; Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)
+!MASS -1 IOY2   15.999400  ! O   2 coordinate ; Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)
+!MASS -1 IOY3   15.999400  ! O   2 coordinate ; Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)
+!MASS -1 IOY4   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)
+!MASS -1 IOY5   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)
+!MASS -1 IOY6   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.683, -0.792 if next to Mg defect)
+!MASS -1 IOY7   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)
+!MASS -1 IOY8   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)
+!MASS -1 IOY9   15.999400  ! O   3 coordinate ; Oxygen atom in octahedral aluminate sheet (-0.683, -0.792 if next to Mg defect)
+!MASS -1 ISY1   28.086000  ! Si  4 coordinate ; Silicon atom in tetrahedral silicate sheet (+1.1)
+!MASS -1 ISY2   28.086000  ! Si  4 coordinate ; Silicon atom in tetrahedral silicate sheet (+1.1)
+!MASS -1 IAYT1  26.981539  ! Al               ; Aluminum defect of ISY1 (+0.8)
+!MASS -1 IAYT2  26.981539  ! Al               ; Aluminum defect of ISY2 (+0.8)
+!MASS -1 IK_CM  39.102000  ! K+               ; Potassium ion in mica, montmorillonite, and other clays (+1.0)
 !MASS -1 NA+   22.989770 ! Na+              ; Sodium ion in silica, clay, and organic salts (+1.0)
 !MASS -1 HT5   1.007970  ! H   1 coordinate ; Hydrogen atom in TIP5P water model
 !MASS -1 OT5  14.999400  ! O   2 coordinate ; Oxygen atom in TIP5P water model
 !MASS -1 ET5   0.500000  ! Lp  1 coordinate ; Electron pair in TIP5P water/ether model (shown as He)
 !CEMENT MINERAL & SILICA & ICA_SULFATE
-MASS -1 IAC1   26.981530  ! Al  4 coordinate ; Aluminum atom in aluminate ring in Ca3Al2O6 (+1.2; note: eps 0.04 better)
-MASS -1 IAC2   26.981530  ! Al  4 coordinate ; Aluminum atom in ettringite, octahedrally coordinated(+1.6)
-MASS -1 ISC1   28.086000  ! Si  4 coordinate ; Silicon atom in silicate ion in Ca3SiO5 (+1.0)
-MASS -1 ISC2   28.086000  ! Si  4 coordinate ; Silicon atom in tobermolite ring (+1.0)
-MASS -1 ISC3   28.086000  ! Si  4 coordinate ; Silicon atom in tobermolite ring junction (+1.0)
-MASS -1 ISC4   28.086000  ! Si  4 coordinate ; Silicon atom in silica (+1.1 in bulk SiO2 or SiOH, +0.725 in SiO-)
-MASS -1 ICA_S  40.080000  ! Ca  0 coordinate ; Calcium ion in Ca3SiO5 (+1.5) and organic salts. replace CA++ with ICA_S in C3S.
-MASS -1 ICA_A  40.080000  ! Ca  0 coordinate ; Calcium ion in Ca3Al2O6 (+1.5). replace CA+A with ICA_A in C3A.
-MASS -1 ICA_G  40.080000  ! Ca  0 coordinate ; Calcium ion in gypsum, hemihydrate, and anhydrite(+1.5). replace CA+G with ICA_G.
-MASS -1 ISCS   32.060000  ! S   4 coordinate ; Sulfur atom in Calcium Sulphates: Gypsum, Hemihydrate, and Anhydrite
-MASS -1 IOCS   15.999400  ! O                ; Sulfur atom in Calcium Sulphates: Gypsum, Hemihydrate, and Anhydrite
-MASS -1 IO_SC  15.999400  ! O   2 coordinate ; oxygen in water(-0.82 in this model).replace IO_SC with O*
-MASS -1 IH_SC   1.007970  ! H   1 coordinate ; hydrogen bonded to nitrogen, Oxygen. replace IH_SC with H*
-MASS -1 ICA_H  40.080000  ! Ca  0 coordinate ; Calcium ion in hydroxyapatite (+1.5). replace CA+H with ICA_H.
-MASS -1 ICA_E  40.080000  ! CA  0 coordinate ; Calcium ion in ettringite(+1.6). replace CA+E with ICA_E.
-MASS -1 ICA_T  40.080000  ! Ca  0 coordinate ; Calcium ion in tobermolite (+1.5). replace CA+T with ICA_T.
-MASS -1 IOC1   15.999400  ! O   1 coordinate ; Oxygen atom silicate ion in Ca3SiO5 (-1.0)
-MASS -1 IOC2   15.999400  ! O   0 coordinate ; Oxide ion in Ca3SiO5 (-1.5)
-MASS -1 IOC3   15.999400  ! O   2 coordinate ; Oxygen atom in aluminate ring in Ca3Al2O6 (-0.75)
-MASS -1 IOC4   15.999400  ! O   1 coordinate ; Oxygen atom in apical position in Ca3Al2O6 (-1.35)
-MASS -1 IOC5   15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9) and in superficial hydroxide ions (-1.05)
-MASS -1 IOC6   15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
-MASS -1 IOC7   15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
-MASS -1 IOC8   15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
-MASS -1 IOC9   15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
-MASS -1 IOC10  15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
-MASS -1 IOC11  15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
-MASS -1 IOC12  15.999400  ! O   2 coordinate ; Oxygen atom in tobermolite (-0.6 and -0.5)
-MASS -1 IOC13  15.999400  ! O   2 coordinate ; Oxygen atom in tobermolite in apical position (-0.925 in tob 11A, -1.0 tob 14A)
-MASS -1 IOC14  15.999400  ! O   2 coordinate ; Oxygen atom in tobermolite in SiOH unit (-0.66)
-MASS -1 IS_AN  32.080000  ! S   1 coordinate ; S in thioketone group. replace S' with S_AN.
-MASS -1 IO2_SC 15.999400  ! O   2 coordinate ; oxygen in water(-0.82, compass). replace IO2_SC with O2*
-MASS -1 IHOC    1.007970  ! H   1 coordinate ; Hydrogen atom in OH group of ettringite (+0.35) and in superficial hydroxide ions (+0.3)
-MASS -1 IH1O    1.007970  ! H   1 coordinate ; Hydrogen atom bonded to oxygen, nitrogen(compass)
-MASS -1 IOC23  15.999400  ! O   2 coordinate ; Oxygen atom in bulk silica (-0.55)
-MASS -1 IOC24  15.999400  ! O   2 coordinate ; Oxygen atom on silica surface and clay edges (-0.675 in Si-OH, -0.9 in SiO-)
+!MASS -1 IAC1   26.981530  ! Al  4 coordinate ; Aluminum atom in aluminate ring in Ca3Al2O6 (+1.2; note: eps 0.04 better)
+!MASS -1 IAC2   26.981530  ! Al  4 coordinate ; Aluminum atom in ettringite, octahedrally coordinated(+1.6)
+!MASS -1 ISC1   28.086000  ! Si  4 coordinate ; Silicon atom in silicate ion in Ca3SiO5 (+1.0)
+!MASS -1 ISC2   28.086000  ! Si  4 coordinate ; Silicon atom in tobermolite ring (+1.0)
+!MASS -1 ISC3   28.086000  ! Si  4 coordinate ; Silicon atom in tobermolite ring junction (+1.0)
+!MASS -1 ISC4   28.086000  ! Si  4 coordinate ; Silicon atom in silica (+1.1 in bulk SiO2 or SiOH, +0.725 in SiO-)
+!MASS -1 ICA_S  40.080000  ! Ca  0 coordinate ; Calcium ion in Ca3SiO5 (+1.5) and organic salts. replace CA++ with ICA_S in C3S.
+!MASS -1 ICA_A  40.080000  ! Ca  0 coordinate ; Calcium ion in Ca3Al2O6 (+1.5). replace CA+A with ICA_A in C3A.
+!MASS -1 ICA_G  40.080000  ! Ca  0 coordinate ; Calcium ion in gypsum, hemihydrate, and anhydrite(+1.5). replace CA+G with ICA_G.
+!MASS -1 ISCS   32.060000  ! S   4 coordinate ; Sulfur atom in Calcium Sulphates: Gypsum, Hemihydrate, and Anhydrite
+!MASS -1 IOCS   15.999400  ! O                ; Sulfur atom in Calcium Sulphates: Gypsum, Hemihydrate, and Anhydrite
+!MASS -1 IO_SC  15.999400  ! O   2 coordinate ; oxygen in water(-0.82 in this model).replace IO_SC with O*
+!MASS -1 IH_SC   1.007970  ! H   1 coordinate ; hydrogen bonded to nitrogen, Oxygen. replace IH_SC with H*
+!MASS -1 ICA_H  40.080000  ! Ca  0 coordinate ; Calcium ion in hydroxyapatite (+1.5). replace CA+H with ICA_H.
+!MASS -1 ICA_E  40.080000  ! CA  0 coordinate ; Calcium ion in ettringite(+1.6). replace CA+E with ICA_E.
+!MASS -1 ICA_T  40.080000  ! Ca  0 coordinate ; Calcium ion in tobermolite (+1.5). replace CA+T with ICA_T.
+!MASS -1 IOC1   15.999400  ! O   1 coordinate ; Oxygen atom silicate ion in Ca3SiO5 (-1.0)
+!MASS -1 IOC2   15.999400  ! O   0 coordinate ; Oxide ion in Ca3SiO5 (-1.5)
+!MASS -1 IOC3   15.999400  ! O   2 coordinate ; Oxygen atom in aluminate ring in Ca3Al2O6 (-0.75)
+!MASS -1 IOC4   15.999400  ! O   1 coordinate ; Oxygen atom in apical position in Ca3Al2O6 (-1.35)
+!MASS -1 IOC5   15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9) and in superficial hydroxide ions (-1.05)
+!MASS -1 IOC6   15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
+!MASS -1 IOC7   15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
+!MASS -1 IOC8   15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
+!MASS -1 IOC9   15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
+!MASS -1 IOC10  15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
+!MASS -1 IOC11  15.999400  ! O   2 coordinate ; Oxygen atom in ettringite, Al(OH)6 unit (-0.9)
+!MASS -1 IOC12  15.999400  ! O   2 coordinate ; Oxygen atom in tobermolite (-0.6 and -0.5)
+!MASS -1 IOC13  15.999400  ! O   2 coordinate ; Oxygen atom in tobermolite in apical position (-0.925 in tob 11A, -1.0 tob 14A)
+!MASS -1 IOC14  15.999400  ! O   2 coordinate ; Oxygen atom in tobermolite in SiOH unit (-0.66)
+!MASS -1 IS_AN  32.080000  ! S   1 coordinate ; S in thioketone group. replace S' with S_AN.
+!MASS -1 IO2_SC 15.999400  ! O   2 coordinate ; oxygen in water(-0.82, compass). replace IO2_SC with O2*
+!MASS -1 IHOC    1.007970  ! H   1 coordinate ; Hydrogen atom in OH group of ettringite (+0.35) and in superficial hydroxide ions (+0.3)
+!MASS -1 IH1O    1.007970  ! H   1 coordinate ; Hydrogen atom bonded to oxygen, nitrogen(compass)
+!MASS -1 IOC23  15.999400  ! O   2 coordinate ; Oxygen atom in bulk silica (-0.55)
+!MASS -1 IOC24  15.999400  ! O   2 coordinate ; Oxygen atom on silica surface and clay edges (-0.675 in Si-OH, -0.9 in SiO-)
 !MASS -1 IOC25  15.999400  ! O   1 coordinate ; Oxygen atom in sulfate ion in calcium sulfates (-0.525)
-MASS -1 IPAP  30.973800   ! P   4 coordinate ; Phosphorus atom in (hydrogen)phosphate ion in hydroxyapatite (+1.0)
-MASS -1 IOAP1 15.999400   ! O   1 coordinate ; Oxygen atom in (hydrogen)phosphate ion in hydroxyapatite (-0.8 to -0.6)
-MASS -1 IOAP2 15.999400   ! O   1 coordinate ; Oxygen atom in hydroxide ion in hydroxyapatite (-1.1)
-MASS -1 IHOP   1.008000   ! H   1 coordinate ; Hydrogen atom in hydrogenphosphate and in hydroxide ion in apatite (+0.4 and +0.2)
+!MASS -1 IPAP  30.973800   ! P   4 coordinate ; Phosphorus atom in (hydrogen)phosphate ion in hydroxyapatite (+1.0)
+!MASS -1 IOAP1 15.999400   ! O   1 coordinate ; Oxygen atom in (hydrogen)phosphate ion in hydroxyapatite (-0.8 to -0.6)
+!MASS -1 IOAP2 15.999400   ! O   1 coordinate ; Oxygen atom in hydroxide ion in hydroxyapatite (-1.1)
+!MASS -1 IHOP   1.008000   ! H   1 coordinate ; Hydrogen atom in hydrogenphosphate and in hydroxide ion in apatite (+0.4 and +0.2)
 !MASS -1 IHA1   1.007970  ! H   1 coordinate ; Hydrogen atom in terminal OH group in PEO (+0.4)
 !MASS -1 OA1  15.999400  ! O   2 coordinate ; Oxygen atom in terminal OH group in PEO (-0.6)
-MASS -1 ICPEO 12.011150  ! C   4 coordinate ; Carbon atom in backbone or terminal group in PEO. Because of duplicate, CE1 convert to CPEO
-MASS -1 IHPEO  1.007970  ! H   1 coordinate ; Hydrogen atom in backbone or terminal group in PEO. Because of duplicate, HE1 convert to HPEO
-MASS -1 IOPEO 15.999400  ! O   2 coordinate ; Oxygen atom in PEO backbone. Because of duplicate, OE1 convert to OPEO
-MASS -1 ST    32.06000   ! S   3 coordinate ; sulfur atom in staple motif
+!MASS -1 ICPEO 12.011150  ! C   4 coordinate ; Carbon atom in backbone or terminal group in PEO. Because of duplicate, CE1 convert to CPEO
+!MASS -1 IHPEO  1.007970  ! H   1 coordinate ; Hydrogen atom in backbone or terminal group in PEO. Because of duplicate, HE1 convert to HPEO
+!MASS -1 IOPEO 15.999400  ! O   2 coordinate ; Oxygen atom in PEO backbone. Because of duplicate, OE1 convert to OPEO
+!MASS -1 ST    32.06000   ! S   3 coordinate ; sulfur atom in staple motif
 !MASS -1 OET5 14.999400  ! O   2 coordinate ; Oxygen atom in PEO backbone with lone pairs ET5 attached (et5=-0.12)
 !MASS -1 OAT5 14.999400  ! O   2 coordinate ; Oxygen atom in terminal OH group in PEO with lone pairs et5 attached (et5=-0.18)
-MASS -1 IMO1  95.950000  ! Mo  6 coordinate ; Molybdenum disulfide (0.5)
-MASS -1 IMO2  95.950000  ! Mo  6 coordinate ; Molybdenum disulfide (0.5)
-MASS -1 ISM1  32.080000  ! S   3 coordinate ; Sulfur atom in Molybdenum disulfide (-0.25)
-MASS -1 ISM2  32.080000  ! S   3 coordinate ; Sulfur atom in Molybdenum disulfide (-0.25)
-MASS -1 ISM3  32.080000  ! S   3 coordinate ; Sulfur atom in Molybdenum disulfide (-0.25)
-MASS -1 ISM4  32.080000  ! S   3 coordinate ; Sulfur atom in Molybdenum disulfide (-0.25)
+!MASS -1 IMO1  95.950000  ! Mo  6 coordinate ; Molybdenum disulfide (0.5)
+!MASS -1 IMO2  95.950000  ! Mo  6 coordinate ; Molybdenum disulfide (0.5)
+!MASS -1 ISM1  32.080000  ! S   3 coordinate ; Sulfur atom in Molybdenum disulfide (-0.25)
+!MASS -1 ISM2  32.080000  ! S   3 coordinate ; Sulfur atom in Molybdenum disulfide (-0.25)
+!MASS -1 ISM3  32.080000  ! S   3 coordinate ; Sulfur atom in Molybdenum disulfide (-0.25)
+!MASS -1 ISM4  32.080000  ! S   3 coordinate ; Sulfur atom in Molybdenum disulfide (-0.25)
 !MASS -1 ICG1  10.011150  ! C   3 coordinate ; sp2 hybridized carbon atom in graphene sheet
 !MASS -1 ICGE   1.007970  ! H   1 coordinate ; Dummy atom attached delocalized carbon of graphene
 !METAL
-MASS  -1 IAG 107.868200  ! AG  0 coordinate ; Silver metal (HH et al. 2008)
-MASS  -1 IAL   26.981539 ! AL  0 coordinate ; Aluminium metal (HH et al. 2008)
-MASS  -1 IAU  196.966500 ! AU  0 coordinate ; Gold metal (HH et al. 2008)
-MASS  -1 AUL  196.966500 ! AU  0 coordinate ; Gold metal (HH et al. 2008)
-MASS  -1 AUS  196.966500 ! AU  0 coordinate ; Gold metal (HH et al. 2008)
-MASS  -1 AUD  196.966500 ! AU  0 coordinate ; Gold metal (HH et al. 2008)
-MASS  -1 ICU   63.546000 ! CU  0 coordinate ; Copper metal (HH et al. 2008)
-MASS  -1 INI   58.693400 ! NI  0 coordinate ; Nickel metal (HH et al. 2008)
-MASS  -1 IPB  207.200000 ! PB  0 coordinate ; Lead metal (HH et al. 2008)
-MASS  -1 IPD 106.420000  ! PD  0 coordinate ; Palladium metal (HH et al. 2008)
-MASS  -1 IPT  195.084000 ! PT  0 coordinate ; Platinum metal (HH et al. 2008)
-MASS  -1 IAC  227.00000  ! AC  0 coordinate ; Actinium metal (HH et al. ****)
-MASS  -1 ICA  40.07800   ! CA  0 coordinate ; Calcium (α) metal (HH et al. ****)
-MASS  -1 ICE  140.11600  ! CE  0 coordinate ; Cerium (γ) metal (HH et al. ****)
-MASS  -1 IES  252.00000  ! ES  0 coordinate ; Einsteinium (β) metal (HH et al. ****)
-MASS  -1 IIR  192.21700  ! IR  0 coordinate ; Iridium metal (HH et al. ****)
-MASS  -1 IFE  55.84700   ! FE  0 coordinate ; Iron (γ) metal (HH et al. ****)
-MASS  -1 IRH  102.90550  ! RH  0 coordinate ; Rhodium metal (HH et al. ****)
-MASS  -1 ISR  87.62000   ! SR  0 coordinate ; Strontium metal (HH et al. ****)
-MASS  -1 ITH  232.03770  ! TH  0 coordinate ; Thorium metal (HH et al. ****)
-MASS  -1 IYB  173.04500  ! YB  0 coordinate ; Ytterbium metal (HH et al. ****)
+!MASS  -1 IAG 107.868200  ! AG  0 coordinate ; Silver metal (HH et al. 2008)
+!MASS  -1 IAL   26.981539 ! AL  0 coordinate ; Aluminium metal (HH et al. 2008)
+!MASS  -1 IAU  196.966500 ! AU  0 coordinate ; Gold metal (HH et al. 2008)
+!MASS  -1 AUL  196.966500 ! AU  0 coordinate ; Gold metal (HH et al. 2008)
+!MASS  -1 AUS  196.966500 ! AU  0 coordinate ; Gold metal (HH et al. 2008)
+!MASS  -1 AUD  196.966500 ! AU  0 coordinate ; Gold metal (HH et al. 2008)
+!MASS  -1 ICU   63.546000 ! CU  0 coordinate ; Copper metal (HH et al. 2008)
+!MASS  -1 INI   58.693400 ! NI  0 coordinate ; Nickel metal (HH et al. 2008)
+!MASS  -1 IPB  207.200000 ! PB  0 coordinate ; Lead metal (HH et al. 2008)
+!MASS  -1 IPD 106.420000  ! PD  0 coordinate ; Palladium metal (HH et al. 2008)
+!MASS  -1 IPT  195.084000 ! PT  0 coordinate ; Platinum metal (HH et al. 2008)
+!MASS  -1 IAC  227.00000  ! AC  0 coordinate ; Actinium metal (HH et al. ****)
+!MASS  -1 ICA  40.07800   ! CA  0 coordinate ; Calcium (α) metal (HH et al. ****)
+!MASS  -1 ICE  140.11600  ! CE  0 coordinate ; Cerium (γ) metal (HH et al. ****)
+!MASS  -1 IES  252.00000  ! ES  0 coordinate ; Einsteinium (β) metal (HH et al. ****)
+!MASS  -1 IIR  192.21700  ! IR  0 coordinate ; Iridium metal (HH et al. ****)
+!MASS  -1 IFE  55.84700   ! FE  0 coordinate ; Iron (γ) metal (HH et al. ****)
+!MASS  -1 IRH  102.90550  ! RH  0 coordinate ; Rhodium metal (HH et al. ****)
+!MASS  -1 ISR  87.62000   ! SR  0 coordinate ; Strontium metal (HH et al. ****)
+!MASS  -1 ITH  232.03770  ! TH  0 coordinate ; Thorium metal (HH et al. ****)
+!MASS  -1 IYB  173.04500  ! YB  0 coordinate ; Ytterbium metal (HH et al. ****)
 !MASS -1 SG    32.080000  ! S   1 coordinate ; S in Calcium Sulphate Minerals.
-MASS  -1 ALO1  26.981539 ! AL  6 coordinate ; Aluminium alpha-Al2O3 (non-bond oxide model charge: +1.62)
-MASS  -1 OAL1  15.999400 ! O   4 coordinate ; Oxygen alpha-Al2O3 (non-bond oxide model charge: -1.08)
-MASS  -1 CRO1  51.996000 ! Cr  6 coordinate ; Chromium alpha-Cr2O3 (non-bond oxide model charge: +1.65)
-MASS  -1 OCR1  15.999400 ! O   4 coordinate ; Oxygen alpha-Cr2O3 (non-bond oxide model charge: -1.10)
-MASS  -1 FEO1  55.84700  ! FE  6 coordinate ; Iron alpha-Fe2O3 (non-bond oxide model charge: +1.74)
-MASS  -1 OFE1  15.999400 ! O   4 coordinate ; Oxygen alpha-Fe2O3 (non-bond oxide model charge: -1.16)
-MASS  -1 CAO1  40.08000  ! Ca  6 coordinate ; Calcium CaO (non-bond oxide model charge: +1.23)
-MASS  -1 OCA1  15.999400 ! O   6 coordinate ; Oxygen CaO (non-bond oxide model charge: -1.23)
-MASS  -1 MGO1  24.30500  ! Mg  6 coordinate ; Magnesium MgO (non-bond oxide model charge: +1.06)
-MASS  -1 OMG1  15.999400 ! O   6 coordinate ; Oxygen MgO (non-bond oxide model charge: -1.06)
-MASS  -1 NIO1  58.710000 ! Ni  6 coordinate ; Mickel NiO (non-bond oxide model charge: +1.10)
-MASS  -1 ONI1  15.999400 ! O   6 coordinate ; Oxygen NiO (non-bond oxide model charge: -1.10)
-MASS  -1 CAO2  40.08000  ! Ca  0 coordinate ; Calcium Ca(OH)2 (non-bond hydroxide model charge: +1.70)
-MASS  -1 OCA2  15.999400 ! O   0 coordinate ; Oxygen Ca(OH)2 (non-bond hydroxide model charge: -1.32) Hydrogen hop (charge +0.470)
-MASS  -1 NIO2  58.710000 ! Ni  0 coordinate ; Nickel Ni(OH)2 (non-bond hydroxide model charge: +1.36)
-MASS  -1 ONI2  15.999400 ! O   0 coordinate ; Oxygen Ni(OH)2 (non-bond hydroxide model charge: -0.96) Hydrogen hop (charge +0.28)
-MASS  -1 MGO2  24.305000 ! Mg  0 coordinate ; Magnesium Mg(OH)2 (non-bond hydroxide model charge: +1.35)
-MASS  -1 OMG2  15.999400 ! O   0 coordinate ; Oxygen Mg(OH)2 (non-bond hydroxide model charge: -1.02) Hydrogen hop (charge +0.3450)
-MASS  -1 ICG1  10.011150 ! C   3 coordinate ; sp2 hybridized carbon in graphite/graphene/CNT (+0.25), needs 2 pi electrons (cge)
-MASS  -1 ICGE  1.000000  ! e   0 coordinate ; Virtual pi electron attached to aromatic carbon (-0.125)
-MASS  -1 IW1  183.840000 ! W   6 coordinate ; Tungsten atom in tungsten disulfide (+0.360)
-MASS  -1 IW2  183.840000 ! W   6 coordinate ; Tungsten atom in tungsten disulfide (+0.360)BONDS
-MASS  -1 ISW1  32.060000 ! S   3 coordinate ; Sulfur atom in tungsten disulfide (-0.180)! V (bond) = Kb(b-b0)**2
-MASS  -1 ISW2  32.060000 ! S   3 coordinate ; Sulfur atom in tungsten disulfide (-0.180)! Kb: kcal/mole/A**2
-MASS  -1 ISW3  32.060000 ! S   3 coordinate ; Sulfur atom in tungsten disulfide (-0.180)! b0: A
-MASS  -1 ISW4  32.060000 ! S   3 coordinate ; Sulfur atom in tungsten disulfide (-0.180)! atom type  Kb        b0
+!MASS  -1 ALO1  26.981539 ! AL  6 coordinate ; Aluminium alpha-Al2O3 (non-bond oxide model charge: +1.62)
+!MASS  -1 OAL1  15.999400 ! O   4 coordinate ; Oxygen alpha-Al2O3 (non-bond oxide model charge: -1.08)
+!MASS  -1 CRO1  51.996000 ! Cr  6 coordinate ; Chromium alpha-Cr2O3 (non-bond oxide model charge: +1.65)
+!MASS  -1 OCR1  15.999400 ! O   4 coordinate ; Oxygen alpha-Cr2O3 (non-bond oxide model charge: -1.10)
+!MASS  -1 FEO1  55.84700  ! FE  6 coordinate ; Iron alpha-Fe2O3 (non-bond oxide model charge: +1.74)
+!MASS  -1 OFE1  15.999400 ! O   4 coordinate ; Oxygen alpha-Fe2O3 (non-bond oxide model charge: -1.16)
+!MASS  -1 CAO1  40.08000  ! Ca  6 coordinate ; Calcium CaO (non-bond oxide model charge: +1.23)
+!MASS  -1 OCA1  15.999400 ! O   6 coordinate ; Oxygen CaO (non-bond oxide model charge: -1.23)
+!MASS  -1 MGO1  24.30500  ! Mg  6 coordinate ; Magnesium MgO (non-bond oxide model charge: +1.06)
+!MASS  -1 OMG1  15.999400 ! O   6 coordinate ; Oxygen MgO (non-bond oxide model charge: -1.06)
+!MASS  -1 NIO1  58.710000 ! Ni  6 coordinate ; Mickel NiO (non-bond oxide model charge: +1.10)
+!MASS  -1 ONI1  15.999400 ! O   6 coordinate ; Oxygen NiO (non-bond oxide model charge: -1.10)
+!MASS  -1 CAO2  40.08000  ! Ca  0 coordinate ; Calcium Ca(OH)2 (non-bond hydroxide model charge: +1.70)
+!MASS  -1 OCA2  15.999400 ! O   0 coordinate ; Oxygen Ca(OH)2 (non-bond hydroxide model charge: -1.32) Hydrogen hop (charge +0.470)
+!MASS  -1 NIO2  58.710000 ! Ni  0 coordinate ; Nickel Ni(OH)2 (non-bond hydroxide model charge: +1.36)
+!MASS  -1 ONI2  15.999400 ! O   0 coordinate ; Oxygen Ni(OH)2 (non-bond hydroxide model charge: -0.96) Hydrogen hop (charge +0.28)
+!MASS  -1 MGO2  24.305000 ! Mg  0 coordinate ; Magnesium Mg(OH)2 (non-bond hydroxide model charge: +1.35)
+!MASS  -1 OMG2  15.999400 ! O   0 coordinate ; Oxygen Mg(OH)2 (non-bond hydroxide model charge: -1.02) Hydrogen hop (charge +0.3450)
+!MASS  -1 ICG1  10.011150 ! C   3 coordinate ; sp2 hybridized carbon in graphite/graphene/CNT (+0.25), needs 2 pi electrons (cge)
+!MASS  -1 ICGE  1.000000  ! e   0 coordinate ; Virtual pi electron attached to aromatic carbon (-0.125)
+!MASS  -1 IW1  183.840000 ! W   6 coordinate ; Tungsten atom in tungsten disulfide (+0.360)
+!MASS  -1 IW2  183.840000 ! W   6 coordinate ; Tungsten atom in tungsten disulfide (+0.360)BONDS
+!MASS  -1 ISW1  32.060000 ! S   3 coordinate ; Sulfur atom in tungsten disulfide (-0.180)! V (bond) = Kb(b-b0)**2
+!MASS  -1 ISW2  32.060000 ! S   3 coordinate ; Sulfur atom in tungsten disulfide (-0.180)! Kb: kcal/mole/A**2
+!MASS  -1 ISW3  32.060000 ! S   3 coordinate ; Sulfur atom in tungsten disulfide (-0.180)! b0: A
+!MASS  -1 ISW4  32.060000 ! S   3 coordinate ; Sulfur atom in tungsten disulfide (-0.180)! atom type  Kb        b0
 ! Battery Oxide (LiCoO2)
-MASS  -1 LI     6.941000 ! Li+
-MASS  -1 COO   58.933200 ! Co
-MASS  -1 OCO1  15.999400 ! Oxygen
-MASS  -1 OCO2  15.999400 ! Oxygen
+!MASS  -1 LI     6.941000 ! Li+
+!MASS  -1 COO   58.933200 ! Co
+!MASS  -1 OCO1  15.999400 ! Oxygen
+!MASS  -1 OCO2  15.999400 ! Oxygen
 ! Gases
-MASS  -1 H2G    2.016000 ! H2
-MASS  -1 N2G   28.014000 ! N2
-MASS  -1 O2G   31.998800 ! O2
+!MASS  -1 H2G    2.016000 ! H2
+!MASS  -1 N2G   28.014000 ! N2
+!MASS  -1 O2G   31.998800 ! O2
 
 BONDS
 ! V (bond) = Kb(b-b0)**2
